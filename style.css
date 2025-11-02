@@ -176,6 +176,7 @@ header nav {
 .catalog-card .btn {
     background-color: white;
     color: rgb(255, 0, 127);
+    
     text-decoration: none;
     padding: 14px 40px;
     border-radius: 50px;
@@ -248,7 +249,7 @@ header nav {
     .logo p{
         margin: 0;
     }
-    
+
     .menu-toggle {
         display: flex;
     }
