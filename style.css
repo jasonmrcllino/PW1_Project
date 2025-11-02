@@ -135,11 +135,6 @@ header nav {
     background-color: rgb(33, 151, 194);
 }
 
-.info-card p {
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
 .info-card .date-box {
     font-size: 25px;
     font-weight: 700;
@@ -153,13 +148,13 @@ header nav {
 }
 
 .catalog-card p {
-    font-size: 40px;
+    font-size: 34px;
     position: relative;
     z-index: 3;
 }
 
 .info-card h2{
-    font-size: 50px; 
+    font-size: 48px; 
     font-weight: 800;
     line-height: 1.2;
     position: relative;
@@ -167,7 +162,7 @@ header nav {
 }
 
 .catalog-card h2 {
-    font-size: 45px; 
+    font-size: 40px; 
     font-weight: 800;
     line-height: 1.2;
     position: relative;
