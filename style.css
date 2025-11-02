@@ -296,10 +296,15 @@ header nav {
         width: 100%;
     }
 
-    .info-card h2, .catalog-card h2 {
+    .info-card h2 {
         font-size: 32px;
     }
-
+    .catalog-card p{
+        font-size: 25px;
+    }
+    .catalog-card h2{
+        font-size: 20px;
+    }
     .info-card .date-box {
         font-size: 24px;
     }
@@ -307,6 +312,20 @@ header nav {
     .hero-card {
         width: 90%;
         padding: 20px;
+    }
+    .info-card{
+        padding: 60px 20px;
+    }
+    .info-char-img{
+        width: 115px;
+    }
+    .catalog-char-img{
+        width: 220px;
+        left: -25px;
+    }
+    .catalog-card .btn{
+        padding: 15px 20px;
+        font-size: 10px;
     }
 }
 
