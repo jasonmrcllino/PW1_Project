@@ -173,35 +173,26 @@ header nav {
     margin-bottom: 15px;
 }
 
-/* === GANTI SEMUA KODE .btn ANDA DENGAN INI === */
-
 .catalog-card .btn {
-    /* -- Pengaturan Dasar -- */
     background-color: white;
-    color: #1178ba;
+    color: rgb(255, 0, 127);
     text-decoration: none;
     padding: 14px 40px;
     border-radius: 50px;
     font-weight: 700;   
     font-size: 18px;
     display: inline-block;
-    
-    /* -- KUNCI ANIMASI -- */
-    position: relative; /* Diperlukan untuk ::before */
-    z-index: 3; /* Pastikan di atas gambar karakter */
-    overflow: hidden; /* Sembunyikan ::before saat di luar */
+    position: relative;
+    z-index: 3; 
+    overflow: hidden;
 }
 
-/* 1. Teks "Check Me!" (yang ada di dalam <span>) */
 .catalog-card .btn span {
     position: relative;
-    z-index: 2; /* Pastikan teks di atas ::before */
-    
-    /* Atur transisi untuk perubahan warna teks */
+    z-index: 2; 
     transition: color 0.4s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
-/* 2. Lapisan Latar Belakang (yang akan meluncur) */
 .catalog-card .btn::before {
     content: '';
     position: absolute;
@@ -209,11 +200,9 @@ header nav {
     left: 0;
     width: 100%;
     height: 100%;   
-    background-color: rgba(33, 151, 194, 0.8);
+    background-color: rgba(255, 0, 127, 0.8);
     z-index: 1; 
     transform: translateX(-101%); 
-    
-    /* Atur transisi untuk pergerakan */
     transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
 }
 
@@ -244,7 +233,6 @@ header nav {
     pointer-events: none;
 }
 
-
 @media (max-width: 1080px) {
     .hero-content {
         flex-direction: column;
@@ -260,7 +248,7 @@ header nav {
     .logo p{
         margin: 0;
     }
-
+    
     .menu-toggle {
         display: flex;
     }
