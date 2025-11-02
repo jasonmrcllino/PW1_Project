@@ -8,7 +8,7 @@ body {
     background-image: url(img/art.jpeg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed; 
+    background-attachment: fixed; /* Background stay saat di scroll */
 }
 
 .container {
@@ -316,11 +316,6 @@ header nav {
 .content-section {
     padding: 50px;
     min-height: 10vh;
-}
-
-.content-section h2 {
-    font-size: 32px;
-    color: #333;
 }
 
 footer {
