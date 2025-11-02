@@ -269,7 +269,6 @@ header nav {
         display: flex; 
         flex-direction: column; 
         text-align: center;
-        
         position: absolute;
         top: 53px; 
         left: 0;
@@ -300,7 +299,7 @@ header nav {
         font-size: 32px;
     }
     .catalog-card p{
-        font-size: 25px;
+        font-size: 24px;
     }
     .catalog-card h2{
         font-size: 20px;
@@ -314,17 +313,17 @@ header nav {
         padding: 20px;
     }
     .info-card{
-        padding: 60px 20px;
+        padding: 40px 20px;
     }
     .info-char-img{
         width: 115px;
     }
     .catalog-char-img{
-        width: 220px;
+        width: 200px;
         left: -25px;
     }
     .catalog-card .btn{
-        padding: 15px 20px;
+        padding: 10px 20px;
         font-size: 10px;
     }
 }
