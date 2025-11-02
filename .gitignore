@@ -1,0 +1,16 @@
+
+*.log
+
+/build/
+
+node_modules/
+
+config.ini
+
+.env
+
+.idea/
+
+.vscode/
+
+!/build/important_output.txt
