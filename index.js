@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.getElementById('mobile-menu');
     
     if (menuToggle && navLinks) {
-
         menuToggle.addEventListener('click', function() {
             menuToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
